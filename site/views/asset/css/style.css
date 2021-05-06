@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.contact-label {
+  display: block;
+  font-weight: bold;
+}
+.contact-des {
+  display: block;
+  color: #ccc;
+}
+.contact {
+  font-size: 8pt;
+}
+.contact-logo {
+  color: #183153;
+  font-size: 14pt;
+}
+.bg-navy {
+  background-color: #183153;
+}
+
+.nav_cus a {
+  color: #fff;
+}
+.nav_cus .active a {
+  color: rgb(51 140 216);
+}
+.cus_logo_reponsive {
+  color: white;
+}
+.nav-item a:hover {
+  color: rgb(51 140 216);
+}
+.button-effect {
+  padding: 0.5rem 1rem;
+  border: 0;
+  color: white;
+  background-color: white;
+  background-color: var(--primary);
+  text-transform: uppercase;
+  transition: padding 0.25s linear;
+  text-align: center;
+  position: relative;
+}
+
+.button-effect:hover {
+  padding-right: 3rem;
+}
+
+.button-effect i {
+  transition: 0.25s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+}
+
+.button-effect:hover i {
+  transform: translateY(-50%);
+  opacity: 1;
+}
+.form-search input[type="search"] {
+  border-radius: 20px;
+  border: 1px solid #2e4a72;
+  background-color: #16335c;
+  padding: 7px 14px;
+  width: 300px;
+  color: #ffffff;
+}
+.form-search {
+  position: relative;
+}
+.btn-submit {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  outline: none;
+  border: 1px solid #2e4a72;
+  border-left: 1px solid #16335c;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  color: #fff;
+  background-color: #16335c;
+}
+.btn-submit:hover {
+  color: rgb(51 140 216);
+}
+
+button {
+  outline: none;
+}
+.dropdown-menu .dropdown-item a {
+  color: white;
+}
+.carousel-item img {
+  height: 300px;
+  width: 100%;
+}
+.title {
+  position: relative;
+  font-weight: bold;
+  font-size: 22pt;
+}
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 3px;
+  width: 120px;
+  height: 5px;
+  background-color: #16335c;
+  transform: skew(50deg);
+  /* border-right: 25px solid transparent; */
+}
+.title::before {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: -2px;
+  width: 100px;
+  height: 5px;
+  background-color: #16335c;
+  /* transform: skew(50deg); */
+  /* border-right: 25px solid transparent; */
+}
+.title-navy {
+  color: #16335c;
+}
+.title-news {
+  /* font-weight: bold;   */
+  color: rgb(39, 39, 39);
+}
+.comment {
+  font-size: 14px;
+}
+.border-b-0 {
+  border-bottom: 0px;
+}
+
+
+.btn-addcart {
+  font-size: 10pt;
+}
+.card-product:hover {
+  transition: all 0.7s;
+  border: 1px solid #16335c;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-product:hover .hot {
+  opacity: 1;
+}
+.limit {
+  top: 20px;
+  left: 0px;
+  padding: 0px 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #16335c;
+  opacity: 1;
+  width: 150px;
+  height: 25px;
+  transition: all 0.7s;
+  z-index: 999;
+}
+.limit::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 70px;
+  z-index: -9999;
+  width: 100px;
+  height: 25px;
+  background-color: rgb(74, 28, 202);
+  transform: skew(50deg);
+}
+.hot {
+  top: 20px;
+  left: 0px;
+  padding: 0px 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #b5236c;
+  opacity: 1;
+  width: 150px;
+  height: 25px;
+  transition: all 0.7s;
+  z-index: 999;
+}
+
+.hot::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 70px;
+  z-index: -9999;
+  width: 100px;
+  height: 25px;
+  background-color: rgb(199, 78, 78);
+  transform: skew(50deg);
+}
+.card {
+  height: 400px;
+}
+.card img{
+  width: 254px;
+  height: 254px;
+  overflow: hidden;
+  object-fit: cover;
+}
+/* ///// */
+ul li {
+  list-style-type: none;
+}
+
+.card-list {
+
+}
+.card-columns {
+  column-count: 4;
+}
+.text-name {
+  font-size: 16pt;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.83);
+}
+.brand-name{
+  font-style: italic;
+  color: rgb(121, 120, 120);
+  font-weight: 300;
+}
+.img_cart {
+  text-align: center;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.price {
+  font-weight: bold;
+}

@@ -1,0 +1,15 @@
+RewriteEngine on
+RewriteRule ^site/tech-zone/$ site/?act=home [L]
+RewriteRule ^dang-nhap/$ site/?act=user&what=login [L]
+RewriteRule ^gio-hang/$ site/?act=cartview [L]
+RewriteRule ^dang-ky/$ site/?act=user&what=register [L]
+RewriteRule ^quen-mat-khau/$ site/?act=user&what=resetpass [L]
+RewriteRule ^doi-mat-khau/$ site/?act=user&what=changepass [L]
+RewriteRule ^san-pham/$ site/?act=product [L]
+RewriteRule ^them-vao-gio/(.*)$ site/?act=cart&what=add&id=$1 [L]
+RewriteRule ^xoa-khoi-gio/(.*)$ site/?act=cart&what=removeone&id=$1 [L]
+RewriteRule ^xoa-gio-hang/(.*)$ site/?act=cart&what=removeall [L]
+RewriteRule ^sp/(.*)$ site/?act=detail&slug=$1
+RewriteRule ^nsx/(.*)$ site/?act=cat&idcat=$1
+
+
